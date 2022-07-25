@@ -1,9 +1,9 @@
 ﻿Console.Write("Enter number of racing threads: ");
-var n = int.Parse(Console.ReadLine());
-var rand = new Random();
-var roundTurns = new List<int>();
-var lines = new string[n];
-var tokenSource = new CancellationTokenSource();
+int n = int.Parse(Console.ReadLine());
+Random rand = new();
+List<int> roundTurns = new();
+string[] lines = new string[n];
+CancellationTokenSource tokenSource = new();
 CancellationToken ct = tokenSource.Token;
 Console.Clear();
 
