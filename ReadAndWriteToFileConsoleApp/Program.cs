@@ -115,6 +115,7 @@ Task.Run(() =>
     }
     Console.WriteLine($"End writing thread: {GetDateTime()}");
     mre.Set();
+    mre.Reset();
 });
 
 foreach (int i in Enumerable.Range(1, 5))
@@ -126,7 +127,6 @@ foreach (int i in Enumerable.Range(1, 5))
         string text = File.ReadAllText(fileName);
         File.WriteAllText($"file{i}.txt", text);
         Console.WriteLine($"Exit read lock: {GetDateTime()}");
-        mre.Reset();
     });
 }
 
