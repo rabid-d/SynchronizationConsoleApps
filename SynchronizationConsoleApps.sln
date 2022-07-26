@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReadAndWriteToFileConsoleApp", "ReadAndWriteToFileConsoleApp\ReadAndWriteToFileConsoleApp.csproj", "{BBB9AB34-5238-4554-82A1-E6453E2E32C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RacingConsoleApp", "RacingConsoleApp\RacingConsoleApp.csproj", "{00197667-C440-4513-AA2E-FF42A7EF6546}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBB9AB34-5238-4554-82A1-E6453E2E32C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBB9AB34-5238-4554-82A1-E6453E2E32C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBB9AB34-5238-4554-82A1-E6453E2E32C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBB9AB34-5238-4554-82A1-E6453E2E32C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00197667-C440-4513-AA2E-FF42A7EF6546}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00197667-C440-4513-AA2E-FF42A7EF6546}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00197667-C440-4513-AA2E-FF42A7EF6546}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00197667-C440-4513-AA2E-FF42A7EF6546}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9E033EAF-643D-4ACC-A77E-D5D6B1C9585D}
+	EndGlobalSection
+EndGlobal
